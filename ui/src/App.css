@@ -1,0 +1,49 @@
+.App {
+  background-color: #293a4a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.table-container {
+  width: 75%;
+  margin-top: 75px;
+}
+
+table {
+  background-color: #363636;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 5px #111;
+  border-radius: 10px;
+}
+
+table.edit {
+  padding-bottom: 3px;
+}
+
+table tr td {
+  font-size: 15px;
+  padding: 20px;
+  text-shadow: 0 0 5px #333;
+  color: #f5f5f5;
+}
+
+table tbody tr:not(:last-child) td {
+  border-bottom: 2px solid #222;
+}
+
+table tbody tr:hover td {
+  background-color: #333;
+}
+
+table thead tr td {
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #252525;
+}
